@@ -5,6 +5,6 @@
 
 if __name__ == "__main__":
 
-    with open('text.txt',encoding='utf-8')as f:
+    with open('text1.txt',encoding='utf-8')as f:
         for text in reversed(f.readlines()):
-            print(text, end='')
+            print(text1, end='')
