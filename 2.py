@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-file = open("file2.txt", "a")
+if __name__ == "__main__":
 
-print(file.write(" Python has an easy syntax and user-friendly interaction."))
-
-file.close()
+    file = open("file2.txt", "a")
+    print(file.write(" Python has an easy syntax and user-friendly interaction."))
+    file.close())
